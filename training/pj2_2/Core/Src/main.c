@@ -99,7 +99,7 @@ int main(void)
       if (i == 4) HAL_GPIO_WritePin(GPIOA, GPIO_PIN_9, GPIO_PIN_SET);//DIR
       else HAL_GPIO_WritePin(GPIOA, GPIO_PIN_9, GPIO_PIN_RESET);//DIR
       //8细分模式
-      for (uint16_t _ = 0; _ < 16*100*i; _++){
+      for (uint16_t _ = 0; _ < 8*100*i; _++){
         HAL_GPIO_WritePin(GPIOA, GPIO_PIN_10, GPIO_PIN_SET);
         HAL_Delay(1);
         HAL_GPIO_WritePin(GPIOA, GPIO_PIN_10, GPIO_PIN_RESET);
