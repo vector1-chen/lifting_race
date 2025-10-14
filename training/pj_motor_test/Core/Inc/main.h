@@ -57,6 +57,12 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define AIN1_Pin GPIO_PIN_9
+#define AIN1_GPIO_Port GPIOA
+#define AIN2_Pin GPIO_PIN_10
+#define AIN2_GPIO_Port GPIOA
+#define STBY_Pin GPIO_PIN_11
+#define STBY_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
 
